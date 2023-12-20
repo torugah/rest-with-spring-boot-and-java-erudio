@@ -3,14 +3,34 @@ package br.com.erudio.model;
 import java.io.Serializable;
 import java.util.Objects;
 
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "person")
 public class Person implements Serializable{
 
 
 	private static final long serialVersionUID = 1L;
 	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
-	private String firstname, lastname;
+	
+	@Column(name = "first_name", nullable = false, length = 80)	
+	private String firstName; 
+	
+	@Column(name = "lastName", nullable = false, length = 80)
+	private String lastName;
+	
+	@Column(nullable = false, length = 100)
 	private String adress;
+	
+	@Column(nullable = false, length = 6)
 	private String gender;
 	
 	public Person() {
@@ -23,17 +43,17 @@ public class Person implements Serializable{
 	public void setId(Long id) {
 		this.id = id;
 	}
-	public String getFirstname() {
-		return firstname;
+	public String getFirstName() {
+		return firstName;
 	}
-	public void setFirstname(String firstname) {
-		this.firstname = firstname;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
 	}
-	public String getLastname() {
-		return lastname;
+	public String getLastName() {
+		return lastName;
 	}
-	public void setLastname(String lastname) {
-		this.lastname = lastname;
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 	public String getAdress() {
 		return adress;
@@ -53,7 +73,7 @@ public class Person implements Serializable{
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(adress, firstname, gender, id, lastname);
+		return Objects.hash(adress, firstName, gender, id, lastName);
 	}
 
 	@Override
@@ -65,8 +85,8 @@ public class Person implements Serializable{
 		if (getClass() != obj.getClass())
 			return false;
 		Person other = (Person) obj;
-		return Objects.equals(adress, other.adress) && Objects.equals(firstname, other.firstname)
-				&& Objects.equals(gender, other.gender) && id == other.id && Objects.equals(lastname, other.lastname);
+		return Objects.equals(adress, other.adress) && Objects.equals(firstName, other.firstName)
+				&& Objects.equals(gender, other.gender) && id == other.id && Objects.equals(lastName, other.lastName);
 	}	
 
 }

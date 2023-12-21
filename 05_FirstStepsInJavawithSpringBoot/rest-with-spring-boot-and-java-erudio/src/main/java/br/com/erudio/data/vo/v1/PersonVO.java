@@ -39,8 +39,8 @@ public class PersonVO implements Serializable{
 	public String getAddress() {
 		return address;
 	}
-	public void setAddress(String adress) {
-		this.address = adress;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	public String getGender() {
 		return gender;

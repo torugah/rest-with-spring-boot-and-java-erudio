@@ -1,0 +1,12 @@
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\exceptions\ResourceNotFoundException.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\controllers\PersonController.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\data\vo\v2\PersonVOV2.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\repositories\PersonRepository.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\Startup.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\data\vo\v1\PersonVO.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\exceptions\ExceptionResponse.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\services\PersonServices.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\mapper\DozerMapper.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\exceptions\handler\CustomizedResponseEntityExceptionHandler.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\mapper\custom\PersonMapper.java
+C:\Users\FillipiBarros\Desktop\rest-with-spring-boot-and-java-erudio\10_VersioningEndpoints\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio\model\Person.java
